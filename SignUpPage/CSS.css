@@ -1,7 +1,7 @@
 
 	@font-face {
     font-family: 'flipbash-webfont';
-    src: url('../fonts/flipbash-webfont.woff') format('woff');
+    src: url('flipbash-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -22,7 +22,7 @@ p  a {
 
 	body {
 		
-		background-image: url(../Bilder/Bakgrunn.png) ;
+		background-image: url(Bilder/Bakgrunn.png) ;
 		margin: auto;
 		background-repeat:no-repeat;
 		
