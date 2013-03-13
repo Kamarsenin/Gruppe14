@@ -1,0 +1,278 @@
+
+	@font-face {
+    font-family: 'flipbash-webfont';
+    src: url('../fonts/flipbash-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+	left: 360px;
+	font-family: 'flipbash-webfont';
+	font-size: 150%;
+	text-decoration: none; 
+	
+}
+
+p  a {
+	color: rgb(255, 255, 255);
+	text-decoration:none;
+	
+}
+
+	body {
+		
+		background-image: url(../Bilder/Bakgrunn.png) ;
+		margin: auto;
+		background-repeat:no-repeat;
+		
+	}
+	#divMain{
+	
+	position: relative;
+	width: 960px;
+	height: 800px;
+    margin: auto;
+	
+}
+	#logo{
+	position:absolute;
+	margin:auto;
+	width:781px;
+	height: 419px;
+	top:10px;
+	
+
+}
+
+#SignUp{
+	position: Absolute;
+	top:220px;
+	left: 260px;
+    width: 290px; /* justere høyden på miderstedel */
+    height: 70px;
+    background: transparent;
+    position: relative;
+    text-align: center;
+}
+
+#SignUp:before {
+    content: "";
+    position: absolute;
+    top: 0px; /* justere plassering av øverste del*/
+    left: 0;    
+    border-bottom: 29px solid rgba(0, 0, 0, 0.8);
+    border-left: 29px solid transparent;
+    border-right: 29px solid transparent;
+    width: 233px; /* bredden på nederste del*/
+    height: 0;
+}
+
+#SignUp:after {
+    content: "";
+    position: absolute;
+    bottom: -58px; /* justere plassering av nederste del*/
+    left: 0;    
+    border-top: 29px solid rgba(0, 0, 0, 0.8);
+    border-left: 29px solid transparent;
+    border-right: 29px solid transparent;
+    width: 233px; /* bredden på nederste del*/
+    height: 0;
+}  
+
+
+#SignUp p {
+    height:70px; /* justere høyden på miderstedel */
+    width:100%;
+    margin: 29px 0 0 0;
+    display: inline-block;
+    line-height: 42px;
+    background:rgba(0, 0, 0, 0.8);
+	font-size: 250%;
+}	
+	
+	
+	
+	
+	
+	
+
+#noTeamBox {
+	position: Absolute;
+	top: 470px;
+	left:420px;
+    width: 444px; /* justere høyden på miderstedel */
+    height: 200px;
+    background: transparent;
+    position: relative;
+    text-align: center;
+}
+
+#noTeamBox:before {
+    content: "";
+    position: absolute;
+    top: 9px; /* justere plassering av øverste del*/
+    left: 0;    
+    border-bottom: 20px solid rgba(0, 0, 0, 0.8);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    width: 404px; /* bredden på nederste del*/
+    height: 0;
+}
+
+#noTeamBox:after {
+    content: "";
+    position: absolute;
+    bottom: -29px; /* justere plassering av nederste del*/
+    left: 0;    
+    border-top: 20px solid rgba(0, 0, 0, 0.8);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    width: 404px; /* bredden på nederste del */
+    height: 0;
+}  
+
+
+#noTeamBox p {
+    height:180px; /* justere høyden på miderstedel */
+    width:100%;
+    margin: 29px 0 0 0;
+    display: inline-block;
+    line-height: 42px;
+    background:rgba(0, 0, 0, 0.8);
+}
+#TeamBox {
+	position: Absolute;
+	top: 270px;
+	left:-40px;
+    width: 444px; /* justere høyden på miderstedel */
+    height: 200px;
+    background: transparent;
+    position: relative;
+    text-align: center;
+}
+
+#TeamBox:before {
+    content: "";
+    position: absolute;
+    top: 9px; /* justere plassering av øverste del*/
+    left: 0;    
+    border-bottom: 20px solid rgba(0, 0, 0, 0.8);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    width: 404px; /* bredden på nederste del*/
+    height: 0;
+}
+
+#TeamBox:after {
+    content: "";
+    position: absolute;
+    bottom: -29px; /* justere plassering av nederste del*/
+    left: 0;    
+    border-top: 20px solid rgba(0, 0, 0, 0.8);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    width: 404px; /* bredden på nederste del */
+    height: 0;
+}  
+
+
+#TeamBox p {
+    height:180px; /* justere høyden på miderstedel */
+    width:100%;
+    margin: 29px 0 0 0;
+    display: inline-block;
+    line-height: 42px;
+    background:rgba(0, 0, 0, 0.8);
+}
+#TextBox {
+	position: Absolute;
+	top:440px;
+	left: -220px;
+    width: 1250px; /* justere høyden på miderstedel */
+    height: 179px;
+    background: transparent;
+    position: relative;
+    text-align: center;
+}
+
+#TextBox:before {
+    content: "";
+    position: absolute;
+    top: 9px; /* justere plassering av øverste del*/
+    left: 0;    
+    border-bottom: 20px solid rgba(0, 0, 0, 0.8);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    width: 1210px; /* bredden på nederste del*/
+    height: 0;
+}
+
+#TextBox:after {
+    content: "";
+    position: absolute;
+    bottom: -19px; /* justere plassering av nederste del*/
+    left: 0;    
+    border-top: 20px solid rgba(0, 0, 0, 0.8);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    width: 1210px; /* bredden på nederste del*/
+    height: 0;
+}  
+
+
+#TextBox p {
+    height:149px; /* justere høyden på miderstedel */
+    width:100%;
+    margin: 29px 0 0 0;
+    display: inline-block;
+    line-height: 42px;
+    background:rgba(0, 0, 0, 0.8);
+}
+
+#Firkant{
+	
+	position: absolute;
+	bottom:-135px;
+	right: -480px;
+	width: 160px;
+	height:70px;
+	background-color: rgba(0, 0, 0, 0.8);
+	
+}
+#Trekant{
+	position: absolute;
+	bottom: -135px;
+	right: -320px;
+	border-top: 70px solid transparent;
+	border-bottom: none;
+	border-right: 70px solid rgba(0, 0, 0, 0.8);
+	
+}
+
+#facebookIcon img{
+	position: absolute;
+	width:50px;
+	height: 50px;
+	bottom: -130px;
+	right:-400px;
+}
+#twitterIcon img{
+	position: absolute;
+	width:50px;
+	height: 50px;
+	bottom: -130px;
+	right:-460px;
+}
+#loginShape{
+position: absolute;
+top: 0px;
+right: -480px;
+font-size: 0px; line-height: 0%; width: 500px;
+border-top: 80px solid rgba(0, 0, 0, 0.8);
+border-left: 80px solid transparent;
+}
+
+	
+	
+	 
