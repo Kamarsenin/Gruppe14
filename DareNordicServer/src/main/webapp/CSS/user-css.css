@@ -1,0 +1,451 @@
+body {
+	margin: 0px;
+}
+
+@font-face {
+    font-family: 'flipbash-webfont';
+    src: url('../FONT/flipbash-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+	position: absolute;
+	top: -40%;
+	left: 2%;
+	font-family: 'flipbash-webfont';
+	font-size: 120%;
+	text-decoration: none; 
+	color: white;
+	
+}
+
+/*--BACKGROUND IMG--*/
+#BackgroundImg {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+/*--HEADER--*/
+#divHeaderContainer {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 80px;
+}
+
+	#divHeaderMainMenuContainer {
+		position: relative;
+		margin: auto;
+		width: 50%;
+		height: 210%;
+	}
+		
+		#divMainMenuFrame {
+			position: absolute;
+			top: 0px;
+			width: 100%;
+			height: 100%;
+		}
+		
+		#divMainMenuTop {
+			position: absolute;
+			top: 0px;
+			width: 91%;
+			height: 55%;
+			background-color: black;
+		}
+		
+			#divMenuLogo {
+				position: absolute;
+				top: 0%;
+				left:0%;
+				width: 30%;
+				height: 100%;
+			}
+					#imgMenuLogo {
+					position: absolute;
+					top: 5%;
+					left: 2%;
+					width: 96%;
+				}
+			
+			#divMenuSearchBar {
+				position: absolute;
+				top: 0px;
+				left: 25%;
+				width: 70%;
+				height: 100%;
+			}
+				
+				#form-search {
+					position: absolute;
+					top: 30%;
+					left: 10%;
+					width: 90%;
+					
+				}
+				#input-search {
+					width: 75%;
+				}
+				#btn {
+					border: 0px;
+					position: absolute;
+					top: -1px;
+					right: 0px;
+					width: 20%;
+					height: 110%;
+					background-color:rgb(77,0,137);
+				}
+				#txtSearch {
+					position: absolute;
+					top: -50%;
+					left: 20%;
+					color: rgb(189,209,49);
+				}
+				
+			#divMenuCorner{
+				position: absolute;
+				top: 0px;
+				right:-10%;
+				width: 10%;
+				height: 100%;
+			}
+				 #imgMenuCorner {
+					height: 100%;
+				 }
+		
+		#divMainMenuBottom {
+			position: absolute;
+			bottom: 10px;
+			width: 100%;
+			height: 35%;
+			background-color: black;
+		}
+			#divBanner1 {
+				position: absolute;
+				left: 0%;
+				width: 20%;
+				height: 100%;
+			}
+			#divBanner2 {
+				position: absolute;
+				left: 20%;
+				width: 20%;
+				height: 100%;
+			}
+			#divBanner3 {
+				position: absolute;
+				left: 40%;
+				width: 20%;
+				height: 100%;
+			}
+			#divBanner4 {
+				position: absolute;
+				left: 60%;
+				width: 20%;
+				height: 100%;
+			}
+			#divBanner5 {
+				position: absolute;
+				left: 80%;
+				width: 20%;
+				height: 100%;
+			}
+
+	#divHeaderUserContainer {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		width: 24.5%;
+		height: 100%;
+		background-color: black;
+	}
+		#divUserImage {
+			position: absolute;
+			left: 0px;
+			width: 20%;
+			height: 100%;
+		}
+			#imgUserAvatar {
+				position: absolute;
+				top: 1%;
+				left: 9%;
+				height: 98%;
+			}
+		#divUserInfoLeft {
+			position: absolute;
+			left: 20%;
+			width: 50%;
+			height: 100%;
+		}
+			#divInfoUserName {
+				position: absolute;
+				width: 100%;
+				height: 50%;
+			}
+			#divInfoTeamName{
+				position: absolute;
+				bottom: 0px;
+				width: 100%;
+				height: 50%;
+			}
+		#divUserInfoRight {
+			position: absolute;
+			left: 70%;
+			width: 30%;
+			height: 100%;
+		}
+			#divInfoLogOut {
+				position: absolute;
+				width: 100%;
+				height: 50%;
+			}
+			#divInfoCountry{
+				position: absolute;
+				bottom: 0px;
+				width: 100%;
+				height: 50%;
+			}
+/*--MAIN--*/
+#divMainContent {
+	margin: auto;
+	margin-top: 157px;
+	width: 700px;
+	overflow: auto;
+	background-color: black;
+}
+
+#divMain {
+	margin: auto;
+	width: 90%;
+	overflow: auto;
+}
+#divLsncSpacing {
+	padding: 1px;
+}
+#divLsncObject {
+	margin: auto;
+	position: relative;
+	top: 2%;
+	width: 100%;
+	height: 165px;
+	background-color:white;
+}
+#divLsncContent {
+	position: relative;
+	top: 1.5%;
+	bottom: 1.5%;
+	left: 0.5%;
+	width: 99%;
+	height: 97%;
+}
+#divLsncStatus {
+	display: inline;
+	position: absolute;
+	width: 3.7%;
+	height: 100%;
+	background-color:black;
+}
+#imgStatus {
+	margin: auto;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+#divLsncPicture {
+	display: inline;
+	position: absolute;
+	left: 3.6%;
+	width: 25%;
+	height: 100%;
+	background-color:black;
+}
+#divFrame {
+	display: inline;
+	position: absolute;
+	top: 0.5%;
+	left: 1%;
+	width: 98%;;
+	height: 98.5%;
+	background-color:black;
+	overflow: hidden;
+}
+#imgUser {
+	align: center;
+	postion: relative;
+	height: 100%;
+	width: 100%;
+}
+#divLsncInfo {
+	display: inline;
+	position: absolute;
+	right: 0%;
+	width: 70%;
+	height: 100%;
+}
+#divLsncUser {
+	display: inline;
+	position: absolute;
+	width: 100%;
+	height: 24%;
+	background-color:rgb(77,0,137);
+}
+#textUserName {
+	position: relative;
+	bottom: 23px;
+	left: 2%;
+	font-size:130%;
+	color:rgb(190,207,51);
+}
+#divLsncSkills {
+	display: inline;
+	position: absolute;
+	left: 0%;
+	bottom: 0%;
+	width: 29%;
+	height: 74%;
+}
+div[id^="divLsncSkill_"] {
+	width: 100%;
+	height: 32%;
+	background-color:black;
+}
+.textSkill {
+	color: white;
+	position: absolute;
+	top: -15%;
+	left: 4%;
+	font-size:80%
+}
+#divLsncSkill_1 {
+	position: absolute;
+	top: 0%;
+}
+#divLsncSkill_2 {
+	position: absolute;
+	top: 34%;
+}
+#divLsncSkill_3 {
+	position: absolute;
+	bottom: 0%;
+}
+#divLsncTeamStatus {
+	display: inline;
+	position: absolute;
+	right: 0%;
+	bottom: 0%;
+	width: 70%;
+	height: 74%;
+}
+#divLsncTeam {
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	height: 20%;
+}
+#textTeam {
+	text-align:center;
+	position: relative;
+	top: -70%;
+	font-size:100%;
+	color:black;
+}
+#divLsncGame {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 13%;
+}
+#textGame {
+	text-align:center;
+	position: relative;
+	top: -75%;
+	font-size:70%;
+	color:black;
+}
+
+/*--FOOTER--*/
+#divFooterContainer {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 80px;
+}
+
+#divFooterBanner {
+	position: absolute;
+	left: 0px;
+	width: 80%;
+	height: 100%;
+}
+	#divFooterBannerBox {
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
+		height: 64%;
+		background-color: black;
+	}
+
+#divFooterInfo {
+	position: absolute;
+	right: 0px;
+	width: 20%;
+	height: 100%;
+}
+	#divFooterCorner {
+		position: absolute;
+		left: 0px;
+		width: 30%;
+		height: 100%;
+	}
+		#imgFooterCorner {
+			width: 100%;
+		 }
+	#divFooterSocial {
+		position: absolute;
+		right: 0%;
+		width: 70%;
+		height: 100%;
+		background-color: black;
+	}
+		#divFooterSocialFacebook {
+			position: absolute;
+			left: 0px;
+			width: 33%;
+			height: 100%;
+		}
+			#imgSocialFacebook  {
+				position: absolute;
+				top: 20%;
+				left: 30%;
+				height: 50%;
+			}
+			
+		#divFooterSocialTwitter {
+			position: absolute;
+			left: 33%;
+			width: 33%;
+			height: 100%;
+		}
+			#imgSocialTwitter {
+				position: absolute;
+				top: 20%;
+				left: 30%;
+				height: 50%;
+			}
+			
+		#divFooterSocialDareInternational {
+			position: absolute;
+			left: 66%;
+			width: 33%;
+			height: 100%;
+		}
+			#imgSocialDareInternational {
+				position: absolute;
+				top: 20%;
+				left: 30%;
+				height: 50%;
+			}
